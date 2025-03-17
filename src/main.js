@@ -4,6 +4,9 @@ import { renderGallery, clearGallery, showLoader, hideLoader } from "./js/render
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 
+import warningIcon from "./img/warning-icon.svg";
+import cautionIcon from "./img/caution-icon.svg";
+
 const form = document.querySelector(".form");
 const input = document.querySelector("input[name='search-text']");
 
